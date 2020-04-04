@@ -1,0 +1,42 @@
+/* HeroDetailComponent's private CSS styles */
+label {
+    display: inline-block;
+    width: 2em;
+    margin: .3em 0;
+    color: #607D8B;
+    font-weight: normal;
+  }
+  input {
+    height: 1.0em;
+    font-size: 1em;
+    padding-left: .4em;
+  }
+  button {
+    margin-top: px;
+    font-family: Arial;
+    background-color: #eee;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+  }
+  button:hover {
+    background-color: #cfd8dc;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
+  table, th , td  {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  table tr:nth-child(even) {
+    background-color: #ffffff;
+  }

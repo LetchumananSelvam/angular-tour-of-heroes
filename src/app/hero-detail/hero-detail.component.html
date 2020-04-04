@@ -1,0 +1,62 @@
+
+<div *ngIf="hero">
+
+  <div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name"/>
+    </label>
+  </div>
+  <div>
+    <label>email:
+      <input [(ngModel)]="hero.email" placeholder="email"/>
+    </label>
+  </div>
+  <div>
+    <label>hp:
+      <input [(ngModel)]="hero.hp" placeholder="hp"/>
+    </label>
+  </div>
+  <div>
+    <label>city:
+      <input [(ngModel)]="hero.city" placeholder="city"/>
+    </label>
+  </div>
+  <div>
+    <label>country:
+      <input [(ngModel)]="hero.country" placeholder="city"/>
+    </label>
+  </div>
+  <div></div></div>
+  <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
+  
+  
+  
+  <div>
+    
+  <h2>{{hero.name | uppercase}} Details</h2>
+  
+  <table>
+    <tr>
+      <td>Id</td>
+      <td>{{ hero.id }}</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>{{ hero.email }}</td>
+    </tr>
+    <tr>
+      <td>Hp</td>
+      <td>{{ hero.hp }}</td>
+    </tr>
+    <tr>
+      <td>City</td>
+      <td>{{ hero.city }}</td>
+    </tr>
+    <tr>
+      <td>Country</td>
+      <td>{{ hero.country }}</td>
+    </tr>
+  </table>
+    
+</div>
